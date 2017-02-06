@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Davis\\": "vendor/davidsolorzano20/core",
+      "Davis\\": "vendor/davidsolorzano20/",
       "DavisConfig\\": "app",
       "DavisWork\\": "workspace"
     }
