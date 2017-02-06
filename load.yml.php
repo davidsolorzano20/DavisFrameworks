@@ -8,7 +8,7 @@
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
 
-$ymlroot = __DIR__ . '/vendor/davidsolorzano20/core/http/thunder/route/yaml/route_yml.php';
+$ymlroot = __DIR__ . '/vendor/davidsolorzano20/core/http/thunder/route/yaml/script.php';
 
 try {
 	$routes_yml = Yaml::parse(file_get_contents('workspace/routes/routes.yml'));
