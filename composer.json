@@ -1,35 +1,47 @@
 {
-  "name": "davidsolorzano20/davisframeworks",
-  "description": "DavisFrameworks Web Apps Development",
-  "type": "project",
-  "support": {
-    "issues": "https://github.com/davidsolorzano20/davisframeworks/issues"
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Luis Solorzano",
-      "email": "luisnic20@gmail.com"
-    }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-    "php": ">=5.6",
-    "davidsolorzano20/core": "^3.0",
-    "symfony/YAML": "^3.2",
-    "twig/twig": "^2.1",
-    "illuminate/database": "^5.4"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "3.0.3-dev"
-    }
-  },
-  "autoload": {
-    "psr-4": {
-      "Davis\\": "vendor/davidsolorzano20/",
-      "DavisConfig\\": "app",
-      "DavisWork\\": "workspace"
-    }
-  }
+	"name": "davidsolorzano20/davisframeworks",
+	"description": "DavisFrameworks Web Apps Development",
+	"type": "project",
+	"support": {
+		"issues": "https://github.com/davidsolorzano20/davisframeworks/issues"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Luis Solorzano",
+			"email": "luisnic20@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.6",
+		"davidsolorzano20/core": "^3.0",
+		"symfony/YAML": "^3.2",
+		"twig/twig": "^2.1",
+		"illuminate/database": "^5.4"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "3.0.3-dev"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Davis\\": "vendor/davidsolorzano20/",
+			"DavisConfig\\": "app",
+			"DavisWork\\": "workspace",
+			"DavisPostInstall\\": "vendor/davidsolorzano20/core/postinstall"
+		}
+	},
+	"scripts": {
+		"post-create-project-cmd": [
+			"DavisPostInstall\\Installer::CreateProject"
+		],
+		"post-install-cmd": [
+			"DavisPostInstall\\Installer::PostInstall"
+		],
+		"post-update-cmd": [
+			"DavisPostInstall\\Installer::PostUpdate"
+		]
+	}
 }
