@@ -15,14 +15,14 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.6",
-    "davidsolorzano20/core": "*",
-    "twig/twig": "*",
-    "illuminate/database": "*",
-    "symfony/YAML": "*"
+    "davidsolorzano20/core": "^3.0",
+    "symfony/YAML": "^3.2",
+    "twig/twig": "^2.1",
+    "illuminate/database": "^5.4"
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "3.0.2-dev"
+      "dev-master": "3.0.3-dev"
     }
   },
   "autoload": {

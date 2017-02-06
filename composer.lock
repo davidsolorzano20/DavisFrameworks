@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3091f0aa1959fcf0b97b93f61692d059",
+    "content-hash": "297c328e10d8164fb177e421981c62c7",
     "packages": [
         {
             "name": "davidsolorzano20/core",
@@ -12,18 +12,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidsolorzano20/core.git",
-                "reference": "20582c0865ab4084e530fe35409eb1cf4c4b478f"
+                "reference": "9482672a19826423d69e47ad551a5b5479e35c76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidsolorzano20/core/zipball/20582c0865ab4084e530fe35409eb1cf4c4b478f",
-                "reference": "20582c0865ab4084e530fe35409eb1cf4c4b478f",
+                "url": "https://api.github.com/repos/davidsolorzano20/core/zipball/9482672a19826423d69e47ad551a5b5479e35c76",
+                "reference": "9482672a19826423d69e47ad551a5b5479e35c76",
                 "shasum": ""
             },
             "type": "project",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.3.1-dev"
+                    "dev-master": "3.0.3-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Core for framework DavisFrameworks",
-            "time": "2016-12-17 16:47:57"
+            "time": "2017-02-06 17:03:39"
         },
         {
             "name": "doctrine/inflector",
@@ -197,12 +197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "898364356ad0e206693be1c2aec574bbb94701ff"
+                "reference": "f4d59563b24077618110ce235bcd74628d2437b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/898364356ad0e206693be1c2aec574bbb94701ff",
-                "reference": "898364356ad0e206693be1c2aec574bbb94701ff",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/f4d59563b24077618110ce235bcd74628d2437b9",
+                "reference": "f4d59563b24077618110ce235bcd74628d2437b9",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2017-02-03 14:55:04"
+            "time": "2017-02-04 21:26:36"
         },
         {
             "name": "illuminate/support",
@@ -540,16 +540,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "dev-master",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "5e8f7d732f6ae17e03df5754876188dd427ece8d"
+                "reference": "2b0d2cb71cc58ceb4133593a83a8f9e82f22187f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5e8f7d732f6ae17e03df5754876188dd427ece8d",
-                "reference": "5e8f7d732f6ae17e03df5754876188dd427ece8d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/2b0d2cb71cc58ceb4133593a83a8f9e82f22187f",
+                "reference": "2b0d2cb71cc58ceb4133593a83a8f9e82f22187f",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -598,7 +598,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-01-10 22:16:56"
+            "time": "2017-01-23 21:36:30"
         }
     ],
     "packages-dev": [],
