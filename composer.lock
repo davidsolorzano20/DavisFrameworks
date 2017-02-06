@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidsolorzano20/core.git",
-                "reference": "9482672a19826423d69e47ad551a5b5479e35c76"
+                "reference": "d3dd59de2356467091c12cdb5dab1233de0dbea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidsolorzano20/core/zipball/9482672a19826423d69e47ad551a5b5479e35c76",
-                "reference": "9482672a19826423d69e47ad551a5b5479e35c76",
+                "url": "https://api.github.com/repos/davidsolorzano20/core/zipball/d3dd59de2356467091c12cdb5dab1233de0dbea7",
+                "reference": "d3dd59de2356467091c12cdb5dab1233de0dbea7",
                 "shasum": ""
             },
             "type": "project",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Core for framework DavisFrameworks",
-            "time": "2017-02-06 17:03:39"
+            "time": "2017-02-06 20:23:05"
         },
         {
             "name": "doctrine/inflector",
