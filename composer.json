@@ -1,0 +1,35 @@
+{
+  "name": "davidsolorzano20/davisframeworks",
+  "description": "DavisFrameworks",
+  "type": "project",
+  "support": {
+    "issues": "https://github.com/davidsolorzano20/davisframeworks/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Solorzano",
+      "email": "luisnic20@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "davidsolorzano20/core": "*",
+    "twig/twig": "*",
+    "illuminate/database": "*",
+    "symfony/YAML": "*"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0.2-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Davis\\": "vendor/davidsolorzano20/core",
+      "DavisConfig\\": "app",
+      "DavisWork\\": "workspace"
+    }
+  }
+}

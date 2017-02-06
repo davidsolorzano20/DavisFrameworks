@@ -1,0 +1,2 @@
+$router->get(/', 'IndexController<>Index');
+$router->get(/blog', 'IndexController<>Blog');

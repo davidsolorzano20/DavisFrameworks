@@ -1,0 +1,32 @@
+{
+  "name": "theme-davis",
+  "description": "Theme Davis with new Technology",
+  "main": "index.js",
+  "authors": [
+    "Luis Solorzano"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "theme",
+    "davisframeworks",
+    "framework",
+    "php"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "semantic": "semantic-org/semantic-ui#^2.2.6",
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "freewall": "kombai/freewall#^1.0.6",
+    "jquery": "^3.1.1"
+  },
+  "version": "1.0.0"
+}

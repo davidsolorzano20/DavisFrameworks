@@ -1,0 +1,6 @@
+{
+  "directory": "../../bower_components",
+  "scripts": {
+    "postinstall": "../../scripts/davis-script.sh"
+  }
+}

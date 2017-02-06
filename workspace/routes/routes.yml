@@ -1,0 +1,20 @@
+homepage:
+  url: /
+  controller: IndexController
+  method: Index
+
+blog:
+  url: blog/:name/:age
+  controller: IndexController
+  method: Blog
+
+list:
+  url: list
+  controller: IndexController
+  method: List
+
+update:
+  url: update
+  controller: IndexController
+  method: Update
+

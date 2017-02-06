@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}{% endblock %} - DavisFramework</title>
+  <link rel="icon"  href="./app/core/theme/img/bolt.png">
+  <link rel="stylesheet" type="text/css" href="{{ assets_core }}css/core.css">
+  <link rel="stylesheet" type="text/css" href="{{ assets_core }}css/css.css">
+  <link rel="stylesheet" type="text/css" href="{{ assets_core }}css/awesome.css">
+
+   {#  Style Bootstrap General Descomentar para usarlo  y borrar los 3 de arriba #}
+  {#<link rel="stylesheet" type="text/css" href="{{ assets_web }}css/style.css">#}
+
+</head>
+<body>
+
+<div class="container">
+  {% block content %}
+  {% endblock %}
+</div>
+
+<script src="{{ assets_web }}assets/js/app.s"></script>
+<script src="{{ assets_web }}assets/libraries/semantic.min.js"></script>
+<script src="{{ assets_web }}assets/libraries/freewall.js"></script>
+</body>
+</html>

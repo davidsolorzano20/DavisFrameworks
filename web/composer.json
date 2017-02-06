@@ -1,0 +1,22 @@
+{
+  "name": "davidsolorzano20/davistheme",
+  "description": "DavisTheme for framework DavisFrameworks",
+  "type": "project",
+  "support": {
+    "issues": "https://github.com/davidsolorzano20/davistheme/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Solorzano",
+      "email": "luisnic20@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.5-dev"
+    }
+  }
+}

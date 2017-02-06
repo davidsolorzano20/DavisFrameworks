@@ -1,0 +1,38 @@
+{
+  "name": "theme-davis",
+  "version": "1.0.0",
+  "description": "Theme Davis with new Technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:davidsolorzano20/DavisTheme.git"
+  },
+  "keywords": [
+    "theme",
+    "davisframeworks",
+    "framework",
+    "php"
+  ],
+  "author": "Luis Solorzano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidsolorzano20/DavisTheme/issues"
+  },
+  "homepage": "https://github.com/davidsolorzano20/DavisTheme#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "bower": "^1.7.9",
+    "es6-promise": "^4.0.3",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-chmod": "^2.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.2.2"
+  }
+}
