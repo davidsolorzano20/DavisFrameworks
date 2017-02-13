@@ -15,7 +15,11 @@ try {
 	$fp = fopen($ymlroot, 'w');
 	$routes_code_yml = [];
 	foreach ($routes_yml as $key => $route) {
-		$routes_code_yml[] = "$" . "router->get('" . $routes_yml[$key]['url'] . "', '" . $routes_yml[$key]['controller'] . '<>' . $routes_yml[$key]['method'] . "');\n";
+		if ($routes_yml[$key]['method'] == 'GET') {
+			$routes_code_yml[] = "$" . "router->get('" . $routes_yml[$key]['url'] . "', '" . $routes_yml[$key]['controller'] . '<>' . $routes_yml[$key]['function'] . "');\n";
+		} else {
+			$routes_code_yml[] = "$" . "router->post('" . $routes_yml[$key]['url'] . "', '" . $routes_yml[$key]['controller'] . '<>' . $routes_yml[$key]['function'] . "');\n";
+		}
 	}
 	$decode = '<?php '. implode('',$routes_code_yml);
 	fwrite($fp, $decode);

@@ -8,6 +8,9 @@
 
 namespace DavisWork\controller;
 
+use Davis\core\collection\input\Input;
+use Davis\core\http\response\Response;
+use Davis\core\http\session\Session;
 use Davis\core\model\DavisTable;
 use Davis\core\views\Views;
 use Davis\core\controller\DavisController;
@@ -16,7 +19,11 @@ use DavisWork\model\UserModel;
 class IndexController extends DavisController {
 
 	public function Index() {
-		Views::renderTwig('home.davisframeworks');
+		if (Session::get('name')) {
+			Views::renderTwig('home.davisframeworks');
+		}else {
+			Response::Redirect('user/login');
+		}
 	}
 
 	public function Blog($name, $da) {
@@ -40,6 +47,34 @@ class IndexController extends DavisController {
 		$resp->name = 'david';
 		$resp->age = '21';
 		$resp->save();
+	}
+
+	public function UserCreate() {
+
+	}
+
+	public function Login() {
+		Views::renderTwig('login.login');
+
+	}
+
+	public function Logout() {
+		Session::destroy();
+		Response::Redirect('user/login');
+	}
+
+	public function UserLogin_Post() {
+
+		$login = new UserModel();
+		$response = $login->where('name', Input::get('name'))->where('age', Input::get('age'))->first();
+
+		if($response) {
+			Session::set('name',Input::get('name'));
+			Response::Redirect('/');
+		} else {
+			Response::Redirect('user/login');
+		}
+
 	}
 
 }

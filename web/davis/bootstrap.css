@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 /*!
- * bootswatch v3.3.7
- * Homepage: http://bootswatch.com
- * Copyright 2012-2016 Thomas Park
- * Licensed under MIT
- * Based on Bootstrap
-*/
-/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -2564,9 +2557,9 @@ output {
   border-radius: 3px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition:  .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition:  ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition:  ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
   border-color: #66afe9;

@@ -1,0 +1,11 @@
+{% extends 'layouts/apps.html.twig' %}
+
+{% block content %}
+
+<form action="/user/loginpost" method="post">
+	<input type="text" name="name">
+	<input type="text" name="age">
+	<button type="submit">Enviar</button>
+
+</form>
+{% endblock %}

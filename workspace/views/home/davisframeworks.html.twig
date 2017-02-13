@@ -31,6 +31,9 @@
           <i class="fa fa-drupal fa-3x" aria-hidden="true"></i>
         </a>
       </div>
+      {{ session_name }}
+      {{ Input("['type' => 'text', 'class'=>'form-control', 'id'=>'name', 'placeholder'=>'Ingrese su nombre' ]") }}
+      {{ Input("['type' => 'submit', 'class'=>'form-control', 'id'=>'name', 'value'=>'Ingresar' ]") }}
     </div>
   </div>
 {% endblock %}
