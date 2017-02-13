@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{% block title %}{% endblock %} - DavisFramework</title>
+  <title>{% block title %}{% endblock %}DavisFramework</title>
   <link rel="icon"  href="./app/core/theme/img/bolt.png">
-  <link rel="stylesheet" type="text/css" href="{{ assets_core }}css/core.css">
-  <link rel="stylesheet" type="text/css" href="{{ assets_core }}css/css.css">
-  <link rel="stylesheet" type="text/css" href="{{ assets_core }}css/awesome.css">
+  <link rel="stylesheet" type="text/css" href="{{ styles_davis('vendor/davidsolorzano20/core/theme/css/core.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ styles_davis('vendor/davidsolorzano20/core/theme/css/css.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ styles_davis('vendor/davidsolorzano20/core/theme/css/awesome.css') }}">
 
    {#  Style Bootstrap General Descomentar para usarlo  y borrar los 3 de arriba #}
   {#<link rel="stylesheet" type="text/css" href="{{ assets_web }}css/style.css">#}
@@ -19,8 +19,8 @@
   {% endblock %}
 </div>
 
-<script src="{{ assets_web }}assets/js/app.s"></script>
-<script src="{{ assets_web }}assets/libraries/semantic.min.js"></script>
-<script src="{{ assets_web }}assets/libraries/freewall.js"></script>
+<script src="{{ script_davis('assets/js/app.js') }}"></script>
+<script src="{{ script_davis('assets/libraries/semantic.min.js') }}"></script>
+<script src="{{ script_davis('assets/libraries/freewall.js') }}"></script>
 </body>
 </html>

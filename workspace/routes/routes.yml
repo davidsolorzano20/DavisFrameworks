@@ -1,20 +1,36 @@
 homepage:
   url: /
   controller: IndexController
-  method: Index
+  function: Index
+  method: GET
 
 blog:
-  url: blog/:name/:age
+  url: user/create
   controller: IndexController
-  method: Blog
+  function: UserCreate
+  method: GET
 
-list:
-  url: list
+user_login:
+  url: user/login
   controller: IndexController
-  method: List
+  function: Login
+  method: GET
+
+user_sign_in:
+  url: user/logout
+  controller: IndexController
+  function: Logout
+  method: GET
+
+user_login_post:
+  url: user/loginpost
+  controller: IndexController
+  function: UserLogin_Post
+  method: POST
 
 update:
   url: update
   controller: IndexController
-  method: Update
+  function: Update
+  method: GET
 

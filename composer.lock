@@ -12,18 +12,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidsolorzano20/core.git",
-                "reference": "d3dd59de2356467091c12cdb5dab1233de0dbea7"
+                "reference": "f6b3c67bf556fa00eb851ba96600e2ac346e59aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidsolorzano20/core/zipball/d3dd59de2356467091c12cdb5dab1233de0dbea7",
-                "reference": "d3dd59de2356467091c12cdb5dab1233de0dbea7",
+                "url": "https://api.github.com/repos/davidsolorzano20/core/zipball/f6b3c67bf556fa00eb851ba96600e2ac346e59aa",
+                "reference": "f6b3c67bf556fa00eb851ba96600e2ac346e59aa",
                 "shasum": ""
             },
             "type": "project",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.3-dev"
+                    "dev-master": "3.0.4-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Core for framework DavisFrameworks",
-            "time": "2017-02-06 20:23:05"
+            "time": "2017-02-13 17:00:39"
         },
         {
             "name": "doctrine/inflector",
@@ -155,12 +155,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "9b7b35b839a6bfb016dfe04ca2c291e53680a7d5"
+                "reference": "981b767f2eec48664ed0f7207a372ddf3c1ec5fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/9b7b35b839a6bfb016dfe04ca2c291e53680a7d5",
-                "reference": "9b7b35b839a6bfb016dfe04ca2c291e53680a7d5",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/981b767f2eec48664ed0f7207a372ddf3c1ec5fb",
+                "reference": "981b767f2eec48664ed0f7207a372ddf3c1ec5fb",
                 "shasum": ""
             },
             "require": {
@@ -189,7 +189,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2017-01-20 14:17:30"
+            "time": "2017-02-10 21:32:45"
         },
         {
             "name": "illuminate/database",
@@ -197,12 +197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "f4d59563b24077618110ce235bcd74628d2437b9"
+                "reference": "3b00af290bf7b44955173aa6df1f96c5b97f386e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/f4d59563b24077618110ce235bcd74628d2437b9",
-                "reference": "f4d59563b24077618110ce235bcd74628d2437b9",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/3b00af290bf7b44955173aa6df1f96c5b97f386e",
+                "reference": "3b00af290bf7b44955173aa6df1f96c5b97f386e",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2017-02-04 21:26:36"
+            "time": "2017-02-13 13:46:28"
         },
         {
             "name": "illuminate/support",
@@ -257,12 +257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "dcea4cabda80b71dea788c3d1d743faad1a37478"
+                "reference": "1ea50a4359bc346ad3f9a804ee43ba023fccd27c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/dcea4cabda80b71dea788c3d1d743faad1a37478",
-                "reference": "dcea4cabda80b71dea788c3d1d743faad1a37478",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/1ea50a4359bc346ad3f9a804ee43ba023fccd27c",
+                "reference": "1ea50a4359bc346ad3f9a804ee43ba023fccd27c",
                 "shasum": ""
             },
             "require": {
@@ -305,7 +305,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2017-02-03 14:55:04"
+            "time": "2017-02-12 14:42:51"
         },
         {
             "name": "nesbot/carbon",
@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "c2c2296f4a6b2b9ff7e1b571d308864facaa2317"
+                "reference": "926aee5ab38c2868816aa760f862a85ad01cb61a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c2c2296f4a6b2b9ff7e1b571d308864facaa2317",
-                "reference": "c2c2296f4a6b2b9ff7e1b571d308864facaa2317",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/926aee5ab38c2868816aa760f862a85ad01cb61a",
+                "reference": "926aee5ab38c2868816aa760f862a85ad01cb61a",
                 "shasum": ""
             },
             "require": {
@@ -358,7 +358,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-01-31 13:48:49"
+            "time": "2017-02-06 22:02:47"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -489,12 +489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "7928849b226f065dae93ec0e8be3b829f73ba67b"
+                "reference": "6095f9750f91c544920eb1344a6f7d2e4e15d8ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/7928849b226f065dae93ec0e8be3b829f73ba67b",
-                "reference": "7928849b226f065dae93ec0e8be3b829f73ba67b",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/6095f9750f91c544920eb1344a6f7d2e4e15d8ad",
+                "reference": "6095f9750f91c544920eb1344a6f7d2e4e15d8ad",
                 "shasum": ""
             },
             "require": {
@@ -536,7 +536,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 17:10:26"
+            "time": "2017-02-10 14:48:44"
         },
         {
             "name": "twig/twig",
